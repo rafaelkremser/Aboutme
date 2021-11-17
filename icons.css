@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html
+{
+    overflow-x: hidden;
+}
+body
+{
+    background: rgb(1, 1, 7);
+    background-position-x: center;
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.button
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: consolas;
+    color: #2196f3;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.button:hover
+{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+.avatars
+{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0,1fr));
+    gap: 3rem;
+}
+@media (min-width: 640px)
+{
+    .avatars
+    {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (min-width: 853px)
+{
+    .avatars
+    {
+        grid-template-columns: repeat(3, minmax(0,1fr));
+    }
+}
+.card
+{
+    display: flex;
+    background: #041124;
+    height: 320px;
+    box-shadow: 0 0 2px #2196f3, 0 0 10px #2196f3, 0 0 20px #2196f3;
+    max-width: 300px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+}
+.card .icon
+{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-size: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-repeat: no-repeat;
+}
+.card .title
+{
+    position: relative;
+    color: #00f7ff;
+    font-size: 30px;
+    top: 106%;
+}

@@ -1,0 +1,5 @@
+const twitter = () => (window.open("https://twitter.com/cecmitadas"))
+const discord = () => (window.open("https://discord.com/channels/564104299370774539"))
+const spotify = () => (window.open("https://open.spotify.com/user/316ymeqkiiy637f2eio34snzvus4"))
+const github = () => (window.open("https://github.com/rafaelkremser"))
+const turnback = () => (window.location.href = "aboutme.html")

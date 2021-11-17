@@ -1,0 +1,5 @@
+const neymar = () => (window.location.href = "neymar.html")
+const friends = () => (window.location.href = "friends.html")
+const icons = () => (window.location.href = "icons.html")
+const socials = () => (window.location.href = "socials.html")
+const turnback = () => (window.location.href = "index.html")

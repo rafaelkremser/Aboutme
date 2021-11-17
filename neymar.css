@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #00f7ff;
+}
+body
+{
+    background: #000;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar
+{
+    display: none;
+}
+.background
+{
+    position: fixed;
+    height: 100vh;
+    width: 59%;
+    background: url("https://pbs.twimg.com/media/E0k6whDWUAUgGyw.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+.shadow
+{
+    display: flex;
+    background: rgba(0, 0, 0, 0.767);
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.shadow:hover
+{
+    background: rgba(0, 0, 0, 0.911);
+}
+.name
+{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #00f7ff;
+    text-shadow: 0 0 5px #00f7ff, 0 0 10px #00f7ff, 0 0 20px #00f7ff;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.shadow:hover .name
+{
+    font-size: 90px;
+}
+.container
+{
+    position: relative;
+    background: #041124;
+    left: 59%;
+    width: 41%;
+    background-size: 100%;
+    background-position: 100%;
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+}
+.button
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    font-family: consolas;
+    color: #2196f3;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.button:hover
+{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+.title
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #00f7ff;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.content
+{
+    padding: 40px 30px 40px 30px;
+    color: rgba(0, 255, 234, 0.432);
+    font-size: 25px;
+}
+.year
+{
+    margin-top: 30px;
+    margin-left: 35px;
+    color: #2196f3;
+    font-size: 23px;
+}
+.text
+{
+    padding: 40px 30px 20px 30px;
+    margin-left: 40px;
+    color: rgba(0, 255, 234, 0.432);
+    font-size: 25px;
+}

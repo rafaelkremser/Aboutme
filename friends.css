@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body
+{
+    background: #000;
+    background-position-x: center;
+    justify-content: center;
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.button
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    width: 200px;
+    border-radius: 5px;
+    font-family: consolas;
+    color: #2196f3;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.button:hover
+{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+.conteiner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.card
+{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    background: #041124;
+    height: 300px;
+    width: 800px;
+    box-shadow: 0 0 1px #2196f3, 0 0 10px #2196f3, 0 0 20px #2196f3;
+    border-radius: 30px;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+.card .icon
+{
+    position: relative;
+    display: flex;
+    width: 280px;
+    height: 280px;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+    border-radius: 200px;
+    background-size: 100%;
+}
+.content
+{
+    width: 510px;
+    left: 300px;
+    padding: 20px 20px 20px 40px;
+    align-items: center;
+    justify-content: center;
+}
+.name
+{
+    position: relative;
+    color: #00f7ff;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.text
+{
+    position: relative;
+    color: rgba(0, 255, 234, 0.432);
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    min-height: 80px;
+}
+.redirect
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 20px;
+    left: 20%;
+    font-family: consolas;
+    color: #2196f3;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.redirect:hover
+{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
